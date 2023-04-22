@@ -20,7 +20,7 @@ def main():
             cor_res = num1 - num2
         else:
             print(f'Question: {num1} * {num2}')
-            corr_res = num1 * num2
+            cor_res = num1 * num2
         answer = prompt.string('Your answer: ')
         try:
             ans = int(answer)
@@ -28,7 +28,7 @@ def main():
             print(f"'{answer}' is wrong answer ;(. Correct answer was '{cor_res}'.'")
             print(f"Let's try again, {name}!")
             break
-        if ans == corr_res:
+        if ans == cor_res:
             print('Correct!')
             i += 1
         else:
