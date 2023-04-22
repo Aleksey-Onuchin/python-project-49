@@ -9,8 +9,8 @@ def main():
     print('What is the result of the expression?')
     i = 0
     while i < 3:
-        num1 = randint(1, 50)
-        num2 = randint(1, 50)
+        num1 = randint(1, 25)
+        num2 = randint(1, 25)
         operand_type = randint(1, 3)
         if operand_type == 1:
             print(f'Question: {num1} + {num2}')
@@ -21,7 +21,13 @@ def main():
         else:
             print(f'Question: {num1} * {num2}')
             correct_result = num1 * num2
-        ans = int(prompt.string('Your answer: '))
+        answer = prompt.string('Your answer: ')
+        try:
+            ans = int(answer)
+        except ValueError:
+            print(f"'{answer}' is wrong answer ;(. Correct answer was '{correct_result}'.'")
+            print(f"Let's try again, {name}!")
+            break
         if ans == correct_result:
             print('Correct!')
             i += 1
