@@ -5,8 +5,6 @@ task = 'Answer "yes" if given number is prime. Otherwise answer "no".'
 
 def prime():
     question = randint(2, 100)
-    if question == 2:
-        correct_answer = 'yes'
     i = 2
     k = 0
     while i < question:
