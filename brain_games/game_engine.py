@@ -8,15 +8,14 @@ def main(game, task):
     print(task)
     i = 0
     while i < 3:
-        question, correct_answer = game()
+        question, corr = game()
         print('Question:', question)
-        answer = prompt.string('Your answer: ')
-        if str(answer) == str(correct_answer):
+        answ = prompt.string('Your answer: ')
+        if str(answ) == str(corr):
             print('Correct!')
             i = i + 1
         else:
-            print(
-                f"'{answer}' is wrong answer ;(. Correct answer was '{correct_answer}'.")
+            print(f"'{answ}' is wrong answer ;(. Correct answer was '{corr}'.")
             print(f"Let's try again, {name}!")
             break
         if i == 3:
