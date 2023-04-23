@@ -16,7 +16,7 @@ def main(game, task):
             i += 1
         else:
             print(
-                f"'{answer}' is wrong answer ;(. Correct answer was '{correct_answer}'.'")
+                f"'{answer}' is wrong answer ;(. Correct answer was '{correct_answer}'.")
             print(f"Let's try again, {name}!")
             break
         if i == 3:
