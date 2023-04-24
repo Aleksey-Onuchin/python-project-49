@@ -1,19 +1,22 @@
 from random import randint
+from random import choice
 
-task = 'What is the result of the expression?'
+GAME_RULE = 'What is the result of the expression?'
 
 
-def calc():
+def get_game():
     num1 = randint(1, 25)
     num2 = randint(1, 25)
-    operand_type = randint(1, 3)
-    if operand_type == 1:
-        question = f'{num1} + {num2}'
-        correct_answer = num1 + num2
-    elif operand_type == 2:
-        question = f'{num1} - {num2}'
-        correct_answer = num1 - num2
+    operator = choice(['+', '-', '*'])
+    question = f'{num1} {operator} {num2}'
+    correct_answer = calculate_expression(num1, num2, operator)
+    return question, correct_answer
+
+
+def calculate_expression(num1, num2, operator):
+    if operator == '+':
+        return num1 + num2
+    elif operator == '-':
+        return num1 - num2
     else:
-        question = f'{num1} * {num2}'
-        correct_answer = num1 * num2
-    return (question, correct_answer)
+        return num1 * num2
