@@ -1,10 +1,18 @@
 [tool.poetry]
 name = "hexlet-code"
 version = "0.1.0"
-description = ""
+description = "Brain-games, 5 math-based games"
 authors = ["Onuchin"]
 readme = "README.md"
 packages = [{include = "brain_games"},]
+
+classifiers = [
+    "Environment :: Console",
+    "Natural Language :: English",
+    "Programming Language :: Python :: 3 :: Only",
+    "Intended Audience :: Education",
+    "Intended Audience :: End Users/Desktop"
+]
 
 [tool.poetry.dependencies]
 python = "^3.10"

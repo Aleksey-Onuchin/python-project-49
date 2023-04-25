@@ -3,17 +3,23 @@
 
 <a href="https://codeclimate.com/github/Aleksey-Onuchin/python-project-49/maintainability"><img src="https://api.codeclimate.com/v1/badges/bb9cd4c04999465e625a/maintainability" /></a>
 
-#asciinema link brain-even
-https://asciinema.org/a/cUAFMIeqliYzGvCMMDdNgJnZ7
+version: python 3.10.6; poetry 1.4.2
 
-#asciinema link brain-calc
-https://asciinema.org/a/PfqmJYO6FOGg4shXOphuNenON
+description: Brain-games - set of 5 math-based games (calculator, even or not, prime or not, find greatest common divisor, find missing number in the progression)
 
-#asciinema link brain-gcd
-https://asciinema.org/a/fTVwaTyXxTGtcXnj7pMkUXzVl
+install: to install run: make package-install
+
+#asciinema brain-even
+[![asciicast](https://asciinema.org/a/cUAFMIeqliYzGvCMMDdNgJnZ7.svg)](https://asciinema.org/a/cUAFMIeqliYzGvCMMDdNgJnZ7)
+
+#asciinema brain-calc
+[![asciicast](https://asciinema.org/a/PfqmJYO6FOGg4shXOphuNenON.svg)](https://asciinema.org/a/PfqmJYO6FOGg4shXOphuNenON)
+
+#asciinema brain-gcd
+[![asciicast](https://asciinema.org/a/fTVwaTyXxTGtcXnj7pMkUXzVl.svg)](https://asciinema.org/a/fTVwaTyXxTGtcXnj7pMkUXzVl)
 
 #asciinema brain-progression
-https://asciinema.org/a/IsUEcpxDuU1c1ThhGqgHPIa5y
+[![asciicast](https://asciinema.org/a/IsUEcpxDuU1c1ThhGqgHPIa5y.svg)](https://asciinema.org/a/IsUEcpxDuU1c1ThhGqgHPIa5y)
 
 #asciinema brain-prime
-https://asciinema.org/a/KfMJP6Gyt7omeEWYcMyJ04SUJ
+[![asciicast](https://asciinema.org/a/KfMJP6Gyt7omeEWYcMyJ04SUJ.svg)](https://asciinema.org/a/KfMJP6Gyt7omeEWYcMyJ04SUJ)
