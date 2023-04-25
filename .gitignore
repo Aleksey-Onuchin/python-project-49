@@ -1,2 +1,3 @@
 /.venv/
-/Recycle_bin
+__pycache__/
+/dist/
