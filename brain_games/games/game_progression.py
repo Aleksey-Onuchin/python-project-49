@@ -3,29 +3,29 @@ from random import randint
 GAME_RULE = 'What number is missing in the progression?'
 
 
-def get_game():
-    list = generate_progression()
-    missing_char = randint(0, len(list) - 1)
-    correct_answer = list[missing_char]
-    question = ""
-    for i in list:
-        if i == correct_answer:
-            question += ".. "
-        else:
-            question += str(i) + " "
-    question = question.strip()
-    return question, correct_answer
-
-
 def generate_progression():
     start = randint(1, 10)
     step = randint(2, 5)
     length = randint(5, 10)
     list = []
     num = start
-    i = 0
-    while i < length:
+    index = 0
+    while index < length:
         list.append(num)
         num += step
-        i += 1
+        index += 1
     return list
+
+
+def get_game():
+    progression = generate_progression()
+    missing_number = randint(0, len(progression) - 1)
+    correct_answer = progression[missing_number]
+    question = ""
+    for number in progression:
+        if number == correct_answer:
+            question += ".. "
+        else:
+            question += str(number) + " "
+    question = question.strip()
+    return question, correct_answer

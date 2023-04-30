@@ -9,17 +9,17 @@ description: Brain-games - set of 5 math-based games (calculator, even or not, p
 
 install: to install run: make package-install
 
-#asciinema brain-even
+brain-even
 [![asciicast](https://asciinema.org/a/cUAFMIeqliYzGvCMMDdNgJnZ7.svg)](https://asciinema.org/a/cUAFMIeqliYzGvCMMDdNgJnZ7)
 
-#asciinema brain-calc
+brain-calc
 [![asciicast](https://asciinema.org/a/PfqmJYO6FOGg4shXOphuNenON.svg)](https://asciinema.org/a/PfqmJYO6FOGg4shXOphuNenON)
 
-#asciinema brain-gcd
+brain-gcd
 [![asciicast](https://asciinema.org/a/fTVwaTyXxTGtcXnj7pMkUXzVl.svg)](https://asciinema.org/a/fTVwaTyXxTGtcXnj7pMkUXzVl)
 
-#asciinema brain-progression
+brain-progression
 [![asciicast](https://asciinema.org/a/IsUEcpxDuU1c1ThhGqgHPIa5y.svg)](https://asciinema.org/a/IsUEcpxDuU1c1ThhGqgHPIa5y)
 
-#asciinema brain-prime
+brain-prime
 [![asciicast](https://asciinema.org/a/KfMJP6Gyt7omeEWYcMyJ04SUJ.svg)](https://asciinema.org/a/KfMJP6Gyt7omeEWYcMyJ04SUJ)
